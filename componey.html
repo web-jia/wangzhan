@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Keywords" content="网站设计" />
+    <meta name="Description" content="网站设计" />
+    <meta name="author" content="" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>网站设计</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/componey.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+</head>
+<style>
+    .BMapLabel {
+        border: none !important;
+    }
+
+    .anchorBL,
+    .BMapLabel {
+        display: none !important;
+    }
+</style>
+
+<body>
+    <div class="menu loaded">
+        <button class="menu-button">
+            <p>菜单</p>
+            <span></span>
+        </button>
+    </div>
+    <div class="contact-widget">
+        <button class="contact-widget__button">
+            <img src="./images/contact.png" alt="">
+        </button>
+        <div id="contact-widget__body">
+            <div class="contact-widget__body__details">
+                <a class="contact-widget__body__details__detail">
+                    <svg width="27" height="27" viewBox="0 0 27 27">
+                        <g>
+                            <g>
+                                <path fill="#6695cc" class="contact-widget__body__details__detail-iconbg"
+                                    d="M0 13.5C0 6.044 6.044 0 13.5 0S27 6.044 27 13.5 20.956 27 13.5 27 0 20.956 0 13.5z">
+                                </path>
+                            </g>
+                            <g>
+                                <g>
+                                    <path fill="#fff"
+                                        d="M7.93 11.668c.165.116.66.46 1.489 1.035.828.573 1.462 1.015 1.903 1.325l.308.222c.158.113.288.205.392.276.104.07.23.148.378.236.148.087.287.152.418.195.13.044.252.066.363.066h.015c.11 0 .232-.022.363-.066.13-.043.27-.108.417-.195.148-.088.274-.166.378-.236.104-.07.235-.163.392-.276l.309-.222c.445-.31 1.578-1.097 3.399-2.36a3.45 3.45 0 0 0 .886-.894c.237-.348.356-.714.356-1.096 0-.32-.115-.594-.345-.821a1.123 1.123 0 0 0-.817-.341H7.843c-.373 0-.66.125-.86.377-.202.252-.302.567-.302.944 0 .305.133.636.4.992.265.356.549.635.849.839z">
+                                    </path>
+                                </g>
+                                <g>
+                                    <path fill="#fff"
+                                        d="M18.97 12.445a150.961 150.961 0 0 0-3.617 2.505c-.276.204-.5.362-.672.476-.172.114-.4.23-.687.349a2.09 2.09 0 0 1-.798.178h-.015a2.09 2.09 0 0 1-.799-.178 4.15 4.15 0 0 1-.686-.349 17.193 17.193 0 0 1-.672-.476c-.654-.479-1.857-1.314-3.61-2.505a3.847 3.847 0 0 1-.733-.632v5.766c0 .32.113.594.341.821.228.228.501.342.82.342h10.692c.32 0 .593-.114.82-.342.228-.227.342-.5.342-.82v-5.767c-.209.232-.45.443-.727.632z">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span>2881344520@qq.com</span>
+                </a>
+                <a class="contact-widget__body__details__detail">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+                        <g>
+                            <g>
+                                <path fill="#66cc6a" class="contact-widget__body__details__detail-iconbg"
+                                    d="M0 13.5C0 6.044 6.044 0 13.5 0S27 6.044 27 13.5 20.956 27 13.5 27 0 20.956 0 13.5z">
+                                </path>
+                            </g>
+                            <g>
+                                <g>
+                                    <g>
+                                        <path fill="#fff"
+                                            d="M19.59 16.963a.56.56 0 0 1-.171.49l-1.632 1.62a.918.918 0 0 1-.288.208 1.19 1.19 0 0 1-.35.11l-.073.006a1.67 1.67 0 0 1-.16.007c-.155 0-.406-.027-.754-.08-.347-.053-.772-.184-1.275-.393-.503-.208-1.074-.521-1.711-.938-.638-.417-1.317-.99-2.036-1.717a13.441 13.441 0 0 1-1.423-1.62 11.536 11.536 0 0 1-.908-1.428 7.696 7.696 0 0 1-.515-1.19 6.311 6.311 0 0 1-.233-.92 3.038 3.038 0 0 1-.05-.607c.009-.147.013-.229.013-.245.016-.115.053-.231.11-.35a.92.92 0 0 1 .209-.288l1.631-1.631a.54.54 0 0 1 .393-.172c.106 0 .2.03.282.092a.853.853 0 0 1 .208.227l1.313 2.49c.073.13.094.274.061.429a.765.765 0 0 1-.208.393l-.601.6a.205.205 0 0 0-.043.08.303.303 0 0 0-.019.092c.033.172.107.368.221.589.098.196.25.435.454.718.204.282.495.607.87.975.369.376.696.668.982.877.286.208.525.361.718.46.192.098.339.157.441.177l.153.031a.292.292 0 0 0 .08-.018.205.205 0 0 0 .08-.043l.699-.712a.751.751 0 0 1 .515-.196.64.64 0 0 1 .331.074h.013l2.367 1.398c.172.106.274.241.306.405z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span>+133-3661-9741</span>
+                </a>
+            </div>
+            <button class="btn">
+                <svg width="18" height="18" version="1.1"
+                   viewBox="0 0 18 18">
+                    <path d="M1.46777,0.94409c1.01514,0.58618 15.36768,15.36743 15.36768,15.36743" fill-opacity="0"
+                        fill="#ffffff" stroke-dashoffset="0" stroke-linejoin="miter" stroke-linecap="round"
+                        stroke-opacity="1" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2"></path>
+                    <path d="M16.83545,0.94409c-1.01562,0.58618 -15.36768,15.36743 -15.36768,15.36743" fill-opacity="0"
+                        fill="#ffffff" stroke-dashoffset="0" stroke-linejoin="miter" stroke-linecap="round"
+                        stroke-opacity="1" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <!-- 菜单 -->
+    <section class="newMenu" id="newMenu">
+        <div class="menu__corner">
+            <img src="./images/caidan/6.png" alt="">
+        </div>
+
+        <div class="menu__wrapper">
+            <div class="menu__cols">
+                <a href="./index.html" class="menu__col"
+                    style="background-image: url('./images/caidan/img2.png');background-size:100% 100%">
+                    <h2 class="col__heading">
+                        首页
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./project.html" class="menu__col" style="background-image: url('./images/caidan/img3.png');">
+                    <h2 class="col__heading">
+                        案例
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./componey.html" class="menu__col" style="background-image: url('./images/caidan/img1.png');">
+                    <h2 class="col__heading">
+                        关于我们
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./news.html" class="menu__col" style="background-image: url('./images/caidan/img4.png');">
+                    <h2 class="col__heading">
+                        新闻资讯
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./contact.html" class="menu__col" style="background-image: url('./images/caidan/img5.png');">
+                    <h2 class="col__heading">
+                        联系我们
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <div class="wrapper">
+        <section class="about-company">
+            <div class="container">
+                <div class="pt1 aniview" style="display:flex;justify-content: space-between;flex-wrap: wrap;
+                -webkit-box-pack: justify;" av-animation="fadeInUp">
+                    <div class="about-company__text">
+                        <h4>公司</h4>
+                        <h3>宁波穿石网络科技有限公司<br>成立于2011年</h3>
+                        <p>穿石科技秉承”绳锯木断，水滴石穿”的创业理念，致力做软件外包行业优质，贴心的服务提
+                            供商。愿携手用户打造适合自身的互联网品牌文化。</p><br><br>
+                        <p>穿石科技主营业务：网站建设， 小程序， 智慧店铺搭建， APP制作等软件开发业务。</p><br><br>
+                        <p>穿石营销理念：结合公司新零售业务，取消业务环节，降低开发业务制作成本，实现客户利
+                            润最大化。</p>
+                    </div>
+                    <div class="about-company__right">
+                        <img src="./images/componey/4.png" alt="">
+                    </div>
+                </div>
+                <div class="pt2 aniview" style="display:flex;justify-content: space-between;flex-wrap: wrap;
+                -webkit-box-pack: justify;" av-animation="fadeInUp">
+                    <div class="about-company__small">
+                        <div class="about-company__decobox"></div>
+                    </div>
+                    <div class="about-company__third">
+                        <div class="about-company__video">
+                            <video src="" poster="./images/componey/1.png"></video>
+                            <div class="play-btn">
+                                <img src="./images/play.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-company__right">
+                        <div class="about-company__heading">
+                            <h3>是时候让我们帮您提升品牌形象了</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-company__small showup">
+                    <a href="./index.html">
+                        <div class="about-company__logo">
+                            <img src="./images/componey/logo_2x.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="about-company__third showup">
+                    <div class="about-company__box">
+                        <p>穿石科技秉承”绳锯木断，水滴石穿”的创业理念，致力做软件外包行业优质，贴心的服务提
+                            供商。愿携手用户打造适合自身的互联网品牌文化。</p>
+                        <p>穿石科技主营业务：网站建设， 小程序， 智慧店铺搭建， APP制作等软件开发业务。</p>
+                        <p>穿石营销理念：结合公司新零售业务，取消业务环节，降低开发业务制作成本，实现客户利
+                            润最大化。</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="about-company__right showup">
+                    <img src="./images/componey/3.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="history">
+            <h3>发展历史</h3>
+
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="left">
+                            <h4>2011</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-left circle1"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="right">
+                            <h4>2014</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-right circle2"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="left">
+                            <h4>2015</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-left circle3"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="right">
+                            <h4>2016</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-right circle4"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="left">
+                            <h4>2017</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-left circle5"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="right">
+                            <h4>2018</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-right circle6"></div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__item__inner">
+                        <div class="left">
+                            <h4>2019</h4>
+                            <ul>
+                                <li>
+                                    目标：满意客户数量是去年的两倍
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="circle circle-left circle7"></div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="our-team aniview" av-animation="fadeIn">
+                <div class="our-team__title">
+                    <div class="our-team__title__small">我们的团队</div>
+                </div>
+
+                <div class="our-team__category">
+                    <div class="our-team__category__title">管理者</div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                </div>
+                <div class="our-team__category">
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="person__image">
+                            <img src="./images/componey/5.png" alt="" class="person__image__before">
+                        </div>
+
+                        <div class="person__name">吴一凡</div>
+                        <div class="person__title">CEO</div>
+
+                        <div class="person__description">
+                            网站样式的创建者和所有者。始终如一的执行关于公司向世界扩展的假设。在业余时间，他去滑雪，花时间在户外。
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="partners">
+            <div class="container aniview" av-animation="fadeIn">
+                <div class="partners__text">
+                    <div class="partners__text__title">我们的客户</div>
+                    <p>
+                        本公司的成就包括在一年中实施的100多个项目，以及稳定的客户流，这些客户多年来一直与该机构合作
+                    </p>
+                </div>
+
+                <div class="partners__images">
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                    <div class="partners__images__image">
+                        <a href='javascript:void(0)'><img src="./images/componey/logo-1.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="center"></div> -->
+        <div class="references">
+            <div class="container">
+
+                <div class="contact-window contact-window1 active">
+                    <div class="contact-window--gdynia">
+                        <h2><strong>与我们联系<br> 并讨论<br>您的项目</strong></h2>
+                        <p class="address">咨询:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">项目经理:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">技术部门:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <hr><br><br>
+                        <h5><strong>地址</strong></h5><br><br>
+                        <p class="address">
+                            浙江省宁波市高新区腊梅路515号迪信通大厦2号楼<br><br>
+                        </p>
+                        <h5><strong>营业时间:</strong></h5><br><br>
+                        <p class="address">
+                            周一至周五：上午9:00-下午5:00（预约）
+                        </p><br><br>
+                        <h5><strong>我们诚挚的邀请您</strong></h5><br><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="contact-window contact-window2">
+                    <div class="contact-window--gdynia">
+                        <h2><strong>与我们联系<br> 并讨论<br>您的项目</strong></h2>
+                        <p class="address">咨询:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">项目经理:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">技术部门:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <hr><br><br>
+                        <h5><strong>地址</strong></h5><br><br>
+                        <p class="address">
+                            上海<br><br>
+                        </p>
+                        <h5><strong>营业时间:</strong></h5><br><br>
+                        <p class="address">
+                            周一至周五：上午9:00-下午5:00（预约）
+                        </p><br><br>
+                        <h5><strong>我们诚挚的邀请您</strong></h5><br><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="contact-window contact-window3">
+                    <div class="contact-window--gdynia">
+                        <h2><strong>与我们联系<br> 并讨论<br>您的项目</strong></h2>
+                        <p class="address">咨询:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">项目经理:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <p class="address">技术部门:</p><br><br>
+                        <p class="phone" style="font-family: sans-serif;">电话：<em>+133-3661-9741</em>
+                        </p>
+                        <div class="mail" href=><strong>邮箱：2881344520@qq.com</strong></div><br><br>
+                        <hr><br><br>
+                        <h5><strong>地址</strong></h5><br><br>
+                        <p class="address">
+                            杭州<br><br>
+                        </p>
+                        <h5><strong>营业时间:</strong></h5><br><br>
+                        <p class="address">
+                            周一至周五：上午9:00-下午5:00（预约）
+                        </p><br><br>
+                        <h5><strong>我们诚挚的邀请您</strong></h5><br><br>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map-holder">
+            <div style="width:100%;height:1600px;border:#ccc solid 1px;" id="ningbo" class="city active">
+            </div>
+            <div style="width:100%;height:1600px;border:#ccc solid 1px;" id="hangzhou" class="city">
+            </div>
+            <div style="width:100%;height:1600px;border:#ccc solid 1px;" id="shanghai" class="city">
+            </div>
+            <div class="container">
+                <ul class="change-location">
+                    <li><a href="javascript:void(0)" class="poz"><span>杭州</span></a></li>
+                    <li><a href="javascript:void(0)" class="active gdy"><span>宁波</span></a></li>
+                    <li><a href="javascript:void(0)" class="wwa"><span>上海</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+        <script>
+            //创建和初始化地图函数：
+            function initMap() {
+                createMap();//创建地图
+                setMapEvent();//设置地图事件
+                addMapControl();//向地图添加控件
+                addMarker();//向地图中添加marker
+            }
+
+            //创建地图函数：
+            function createMap() {
+                var map = new BMap.Map("ningbo");//在百度地图容器中创建一个地图
+                var point = new BMap.Point(121.684024, 29.689518);//定义一个中心点坐标
+                map.centerAndZoom(point, 11);//设定地图的中心点和坐标并将地图显示在地图容器中
+                window.map = map;//将map变量存储在全局
+            }
+
+            //地图事件设置函数：
+            function setMapEvent() {
+                map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                map.enableKeyboard();//启用键盘上下左右键移动地图
+            }
+
+            //地图控件添加函数：
+            function addMapControl() {
+            }
+
+            //标注点数组
+            var markerArr = [{ title: "我的标记", content: "我的备注", point: "121.885244|29.714114", isOpen: 0, icon: { w: 100, h: 100, l: 0, t: 0, x: 6, lb: 5 } }
+            ];
+            //创建marker
+            function addMarker() {
+                for (var i = 0; i < markerArr.length; i++) {
+                    var json = markerArr[i];
+                    var p0 = json.point.split("|")[0];
+                    var p1 = json.point.split("|")[1];
+                    var point = new BMap.Point(p0, p1);
+                    var iconImg = createIcon(json.icon);
+                    // var iconImg = new BMap.Icon("../images/componey/logo_1.png");
+                    var marker = new BMap.Marker(point, { icon: iconImg });
+                    var iw = createInfoWindow(i);
+                    var label = new BMap.Label(json.title, { "offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20) });
+                    marker.setLabel(label);
+                    map.addOverlay(marker);
+                    label.setStyle({
+                        borderColor: "#808080",
+                        color: "#333",
+                        cursor: "pointer"
+                    });
+
+                    (function () {
+                        var index = i;
+                        var _iw = createInfoWindow(i);
+                        var _marker = marker;
+                        _marker.addEventListener("click", function () {
+                            this.openInfoWindow(_iw);
+                        });
+                        _iw.addEventListener("open", function () {
+                            _marker.getLabel().hide();
+                        })
+                        _iw.addEventListener("close", function () {
+                            _marker.getLabel().show();
+                        })
+                        label.addEventListener("click", function () {
+                            _marker.openInfoWindow(_iw);
+                        })
+                        if (!!json.isOpen) {
+                            label.hide();
+                            _marker.openInfoWindow(_iw);
+                        }
+                    })()
+                }
+            }
+            //创建InfoWindow
+            function createInfoWindow(i) {
+                var json = markerArr[i];
+                var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+                return iw;
+            }
+            //创建一个Icon
+            function createIcon(json) {
+                var icon = new BMap.Icon("./images/logo.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
+                return icon;
+            }
+            initMap();//创建和初始化地图
+
+            //创建和初始化地图函数：
+            function initMap2() {
+                createMap2();//创建地图
+                setMapEvent2();//设置地图事件
+                addMapControl2();//向地图添加控件
+                addMarker2();//向地图中添加marker
+            }
+            //创建地图函数：
+            function createMap2() {
+                var map2 = new BMap.Map("hangzhou");//在百度地图容器中创建一个地图
+                var point2 = new BMap.Point(119.493704, 31.14687);//定义一个中心点坐标
+                map2.centerAndZoom(point2, 11);//设定地图的中心点和坐标并将地图显示在地图容器中
+                window.map = map2;//将map变量存储在全局
+            }
+
+            //地图事件设置函数：
+            function setMapEvent2() {
+                map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                map.enableKeyboard();//启用键盘上下左右键移动地图
+            }
+
+            //地图控件添加函数：
+            function addMapControl2() {
+            }
+
+            //标注点数组
+            var markerArr2 = [{ title: "我的标记", content: "我的备注", point2: "120.306059|30.196663", isOpen: 0, icon: { w: 100, h: 100, l: 0, t: 0, x: 6, lb: 5 } }
+            ];
+            //创建marker
+            function addMarker2() {
+                for (var i = 0; i < markerArr2.length; i++) {
+                    var json2 = markerArr2[i];
+                    var p3 = json2.point2.split("|")[0];
+                    var p4 = json2.point2.split("|")[1];
+                    var point2 = new BMap.Point(p3, p4);
+                    var iconImg2 = createIcon(json2.icon);
+                    // var iconImg = new BMap.Icon("../images/componey/logo_1.png");
+                    var marker2 = new BMap.Marker(point2, { icon: iconImg2 });
+                    var iw2 = createInfoWindow(i);
+                    var label2 = new BMap.Label(json2.title, { "offset": new BMap.Size(json2.icon.lb - json2.icon.x + 10, -20) });
+                    marker2.setLabel(label2);
+                    map.addOverlay(marker2);
+                    label2.setStyle({
+                        borderColor: "#808080",
+                        color: "#333",
+                        cursor: "pointer"
+                    });
+
+                    (function () {
+                        var index = i;
+                        var _iw = createInfoWindow(i);
+                        var _marker2 = marker2;
+                        _marker2.addEventListener("click", function () {
+                            this.openInfoWindow(_iw);
+                        });
+                        _iw.addEventListener("open", function () {
+                            _marker2.getLabel().hide();
+                        })
+                        _iw.addEventListener("close", function () {
+                            _marker2.getLabel().show();
+                        })
+                        label2.addEventListener("click", function () {
+                            _marker2.openInfoWindow(_iw);
+                        })
+                        if (!!json2.isOpen) {
+                            label2.hide();
+                            _marker2.openInfoWindow(_iw);
+                        }
+                    })()
+                }
+            }
+            //创建InfoWindow
+            function createInfoWindow2(i) {
+                var json2 = markerArr2[i];
+                var createInfoWindow2 = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+                return iw2;
+            }
+            //创建一个Icon
+            function createIcon(json) {
+                var icon = new BMap.Icon("./images/logo.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
+                return icon;
+            }
+
+            initMap2();//创建和初始化地图
+
+
+
+            //创建和初始化地图函数：
+            function initMap3() {
+                createMap3();//创建地图
+                setMapEvent3();//设置地图事件
+                addMapControl3();//向地图添加控件
+                addMarker3();//向地图中添加marker
+            }
+            //创建地图函数：
+            function createMap3() {
+                var map3 = new BMap.Map("shanghai");//在百度地图容器中创建一个地图
+                var point3 = new BMap.Point(120.896426, 31.941176);//定义一个中心点坐标
+                map3.centerAndZoom(point3, 11);//设定地图的中心点和坐标并将地图显示在地图容器中
+                window.map = map3;//将map变量存储在全局
+            }
+
+            //地图事件设置函数：
+            function setMapEvent3() {
+                map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                map.enableKeyboard();//启用键盘上下左右键移动地图
+            }
+
+            //地图控件添加函数：
+            function addMapControl3() {
+            }
+
+            //标注点数组
+            var markerArr3 = [{ title: "我的标记", content: "我的备注", point3: "121.587187|31.223083", isOpen: 0, icon: { w: 100, h: 100, l: 0, t: 0, x: 6, lb: 5 } }
+            ];
+            //创建marker
+            function addMarker3() {
+                for (var i = 0; i < markerArr3.length; i++) {
+                    var json3 = markerArr3[i];
+                    var p3 = json3.point3.split("|")[0];
+                    var p4 = json3.point3.split("|")[1];
+                    var point3 = new BMap.Point(p3, p4);
+                    var iconImg3 = createIcon(json3.icon);
+                    // var iconImg = new BMap.Icon("../images/componey/logo_1.png");
+                    var marker3 = new BMap.Marker(point3, { icon: iconImg3 });
+                    var iw3 = createInfoWindow(i);
+                    var label3 = new BMap.Label(json3.title, { "offset": new BMap.Size(json3.icon.lb - json3.icon.x + 10, -20) });
+                    marker3.setLabel(label3);
+                    map.addOverlay(marker3);
+                    label3.setStyle({
+                        borderColor: "#808080",
+                        color: "#333",
+                        cursor: "pointer"
+                    });
+
+                    (function () {
+                        var index = i;
+                        var _iw = createInfoWindow(i);
+                        var _marker3 = marker3;
+                        _marker3.addEventListener("click", function () {
+                            this.openInfoWindow(_iw);
+                        });
+                        _iw.addEventListener("open", function () {
+                            _marker3.getLabel().hide();
+                        })
+                        _iw.addEventListener("close", function () {
+                            _marker3.getLabel().show();
+                        })
+                        label3.addEventListener("click", function () {
+                            _marker3.openInfoWindow(_iw);
+                        })
+                        if (!!json3.isOpen) {
+                            label3.hide();
+                            _marker3.openInfoWindow(_iw);
+                        }
+                    })()
+                }
+            }
+            //创建InfoWindow
+            function createInfoWindow3(i) {
+                var json3 = markerArr3[i];
+                var createInfoWindow3 = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+                return iw3;
+            }
+            //创建一个Icon
+            function createIcon(json) {
+                var icon = new BMap.Icon("./images/logo.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
+                return icon;
+            }
+
+            initMap3();//创建和初始化地图
+        </script>
+        <footer class="active">
+            <div class="container">
+                <p class="copyright">
+                    Copyright © 宁波穿石网络科技有限公司 All rights reserved&nbsp;&nbsp;&nbsp;<a
+                        href="http://www.beian.miit.gov.cn">技术支持：穿石科技</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/jquery.aniview.min.js"></script>
+<script src="js/base.js"></script>
+<script>
+    $(".about-company__video video").css("height", $(".about-company__video video").width() / 1.644);
+    $(".change-location li a").click(function () {
+        $(".change-location li a").removeClass("active");
+        $(this).addClass("active");
+    })
+
+    $(window).on("scroll", function () {
+        if (($(".history").offset().top - $(this).scrollTop() + 100) < $(this).height()) {
+            $(".left").addClass('move');
+            $(".right").addClass('move2');
+        }
+    })
+    $('.circle-left').hover(function () {
+        $(this).parent().children().children().css("left", "-25%");
+        $(this).parent().children().children().css("animation", "none")
+    }, function () {
+        $(this).parent().children().children().css("left", "0%");
+    })
+    $('.circle-right').hover(function () {
+        $(this).parent().children().children().css("left", "20%");
+        $(this).parent().children().children().css("animation", "none")
+    }, function () {
+        $(this).parent().children().children().css("left", "0%");
+    })
+    if ($(window).width() < 750) {
+        $('.circle-left').hover(function () {
+            $(this).parent().children().children().css("left", "16%");
+            $(this).parent().children().children().css("animation", "none")
+        }, function () {
+            $(this).parent().children().children().css("left", "0%");
+        })
+    }
+    $(window).on("scroll", function () {
+        if (($(".showup").offset().top - $(this).scrollTop() + 100) < $(this).height()) {
+            $(".showup").addClass('active');
+        }
+    })
+    $('.about-company__video').click(function () {
+        $(this).find(".play-btn").addClass("active");
+        $(this).find("video").attr("controls", 'controls');
+        $(this).find("video")[0].play();
+        $(this).find("video")[0].onended = function () {
+            $(this)[0].load();
+            $(this).parent().find(".play-btn").removeClass("active");
+            $(this).removeAttr("controls");
+        }
+    })
+</script>

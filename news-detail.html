@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Keywords" content="网站设计" />
+    <meta name="Description" content="网站设计" />
+    <meta name="author" content="" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>网站设计</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/news-detail.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+</head>
+
+<body class="setcolor">
+    <div class="menu loaded">
+        <button class="menu-button">
+            <p>菜单</p>
+            <span></span>
+        </button>
+    </div>
+    <div class="contact-widget">
+        <button class="contact-widget__button">
+            <img src="./images/contact.png" alt="">
+        </button>
+        <div id="contact-widget__body">
+            <div class="contact-widget__body__details">
+                <a class="contact-widget__body__details__detail">
+                    <svg width="27" height="27" viewBox="0 0 27 27">
+                        <g>
+                            <g>
+                                <path fill="#6695cc" class="contact-widget__body__details__detail-iconbg"
+                                    d="M0 13.5C0 6.044 6.044 0 13.5 0S27 6.044 27 13.5 20.956 27 13.5 27 0 20.956 0 13.5z">
+                                </path>
+                            </g>
+                            <g>
+                                <g>
+                                    <path fill="#fff"
+                                        d="M7.93 11.668c.165.116.66.46 1.489 1.035.828.573 1.462 1.015 1.903 1.325l.308.222c.158.113.288.205.392.276.104.07.23.148.378.236.148.087.287.152.418.195.13.044.252.066.363.066h.015c.11 0 .232-.022.363-.066.13-.043.27-.108.417-.195.148-.088.274-.166.378-.236.104-.07.235-.163.392-.276l.309-.222c.445-.31 1.578-1.097 3.399-2.36a3.45 3.45 0 0 0 .886-.894c.237-.348.356-.714.356-1.096 0-.32-.115-.594-.345-.821a1.123 1.123 0 0 0-.817-.341H7.843c-.373 0-.66.125-.86.377-.202.252-.302.567-.302.944 0 .305.133.636.4.992.265.356.549.635.849.839z">
+                                    </path>
+                                </g>
+                                <g>
+                                    <path fill="#fff"
+                                        d="M18.97 12.445a150.961 150.961 0 0 0-3.617 2.505c-.276.204-.5.362-.672.476-.172.114-.4.23-.687.349a2.09 2.09 0 0 1-.798.178h-.015a2.09 2.09 0 0 1-.799-.178 4.15 4.15 0 0 1-.686-.349 17.193 17.193 0 0 1-.672-.476c-.654-.479-1.857-1.314-3.61-2.505a3.847 3.847 0 0 1-.733-.632v5.766c0 .32.113.594.341.821.228.228.501.342.82.342h10.692c.32 0 .593-.114.82-.342.228-.227.342-.5.342-.82v-5.767c-.209.232-.45.443-.727.632z">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span>2881344520@qq.com</span>
+                </a>
+                <a class="contact-widget__body__details__detail">
+                    <svg width="27" height="27" viewBox="0 0 27 27">
+                        <g>
+                            <g>
+                                <path fill="#66cc6a" class="contact-widget__body__details__detail-iconbg"
+                                    d="M0 13.5C0 6.044 6.044 0 13.5 0S27 6.044 27 13.5 20.956 27 13.5 27 0 20.956 0 13.5z">
+                                </path>
+                            </g>
+                            <g>
+                                <g>
+                                    <g>
+                                        <path fill="#fff"
+                                            d="M19.59 16.963a.56.56 0 0 1-.171.49l-1.632 1.62a.918.918 0 0 1-.288.208 1.19 1.19 0 0 1-.35.11l-.073.006a1.67 1.67 0 0 1-.16.007c-.155 0-.406-.027-.754-.08-.347-.053-.772-.184-1.275-.393-.503-.208-1.074-.521-1.711-.938-.638-.417-1.317-.99-2.036-1.717a13.441 13.441 0 0 1-1.423-1.62 11.536 11.536 0 0 1-.908-1.428 7.696 7.696 0 0 1-.515-1.19 6.311 6.311 0 0 1-.233-.92 3.038 3.038 0 0 1-.05-.607c.009-.147.013-.229.013-.245.016-.115.053-.231.11-.35a.92.92 0 0 1 .209-.288l1.631-1.631a.54.54 0 0 1 .393-.172c.106 0 .2.03.282.092a.853.853 0 0 1 .208.227l1.313 2.49c.073.13.094.274.061.429a.765.765 0 0 1-.208.393l-.601.6a.205.205 0 0 0-.043.08.303.303 0 0 0-.019.092c.033.172.107.368.221.589.098.196.25.435.454.718.204.282.495.607.87.975.369.376.696.668.982.877.286.208.525.361.718.46.192.098.339.157.441.177l.153.031a.292.292 0 0 0 .08-.018.205.205 0 0 0 .08-.043l.699-.712a.751.751 0 0 1 .515-.196.64.64 0 0 1 .331.074h.013l2.367 1.398c.172.106.274.241.306.405z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span>+133-3661-9741</span>
+                </a>
+            </div>
+            <button class="btn">
+
+                <svg width="18" height="18" version="1.1" viewBox="0 0 18 18">
+                    <path d="M1.46777,0.94409c1.01514,0.58618 15.36768,15.36743 15.36768,15.36743" fill-opacity="0"
+                        fill="#ffffff" stroke-dashoffset="0" stroke-linejoin="miter" stroke-linecap="round"
+                        stroke-opacity="1" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2"></path>
+                    <path d="M16.83545,0.94409c-1.01562,0.58618 -15.36768,15.36743 -15.36768,15.36743" fill-opacity="0"
+                        fill="#ffffff" stroke-dashoffset="0" stroke-linejoin="miter" stroke-linecap="round"
+                        stroke-opacity="1" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <!-- 菜单 -->
+    <section class="newMenu" id="newMenu">
+        <div class="menu__corner">
+            <img src="./images/caidan/6.png" alt="">
+        </div>
+
+        <div class="menu__wrapper">
+            <div class="menu__cols">
+                <a href="./index.html" class="menu__col"
+                    style="background-image: url('./images/caidan/img2.png');background-size:100% 100%">
+                    <h2 class="col__heading">
+                        首页
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./project.html" class="menu__col" style="background-image: url('./images/caidan/img3.png');">
+                    <h2 class="col__heading">
+                        案例
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./componey.html" class="menu__col" style="background-image: url('./images/caidan/img1.png');">
+                    <h2 class="col__heading">
+                        关于我们
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./news.html" class="menu__col" style="background-image: url('./images/caidan/img4.png');">
+                    <h2 class="col__heading">
+                        新闻资讯
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+                <a href="./contact.html" class="menu__col" style="background-image: url('./images/caidan/img5.png');">
+                    <h2 class="col__heading">
+                        联系我们
+                    </h2>
+                    <div class="case-image">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <div class="wrapper">
+        <div class="lastest_post">
+            <div class="last_post" style="background:url(./images/news/1.png);background-size:cover">
+                <div class="container">
+                    <article class="last_post_content">
+                        <p class="time_views">10-18</p>
+                        <h4>什么是响应式网站?</h4>
+                    </article>
+                </div>
+            </div>
+            <div class="skew"></div>
+        </div>
+        <div class="main_3_posts single-blog l2 aniview" av-animation="fadeInUp">
+            <div class="single-line line"></div>
+            <div class="container ">
+                <div class="post-wrapper">
+                    <div class="single-post_title post-single">
+                        <h2 class="post_title c l2">什么是响应式网站?</h2>
+                        <p class="time_views">10-18</p>
+                    </div>
+                    <div class="single-content">
+                        我想成为居格尔的第一人。可以做到吗?IT行业的每个人都多次听到过这个问题；反过来，每个
+                        有意识的网站所
+
+                        有者都在努力使自己的网站热心访问，并且访问量在搜索结果中不断增长。这是一个长
+                        期过程，必须得到正确和
+
+                        合法的支持，这一事实不应令任何人感到惊讶-并且应使客户意识到这一点。定
+                        位是三种方式之一-另一种是运行
+
+                        付费的AdWords广告系列。第三， 它的特色片段。
+                        <br><br>
+                        这是什么这些是“带答案的推荐代码段”， 出现在您键入搜索词组并单击Enter时出现在Google搜索引
+                        擎的顶部。精选摘要的特征在于其原始格式，使它们对用户而言更加可见。框架包含来自网站的文本片
+                        段，可选的图形和以页面链接形式的来源。通常精选的摘要出现在“0”处，高于所有其他搜索引擎结果
+                        。但是， 例外情况是当用户在Adwords服务中购买了给定的短语时， 建议的片段会稍低一些。显然， 这
+                        是每个人都希望实现的最理想的情况。
+                        <br><br>
+                        Google不断改进其浏览器， 使其对用户更加友好和有用。口语中的“问您的Google叔叔”或“Google
+                        叔叔告诉您”并非毫无意义-毕竟，我们每天都在使用她/他的帮助；-)-不仅要专业地工作。如何将页面
+                        添加到精选代码片段是一个严密保护的秘密， 只有部分Google开发人员才能知道。简而言之：没有单一
+                        的配方如何实现所需的位置“0”。但是，根据经验和观察，我们可以在网站上指导我们的活动，以便
+                        Google可以更轻松地看到我们的网站并使其脱颖而出。
+
+                        <br><br>
+                        对于我们的网站而言，最重要的是根据其上的材料进行深思熟虑。这就是为什么内容优化和编辑如此重
+                        要的原因。它应该包含用户的答案-这里的答案应该专门制定， 因为Google脚本在精选代码段中仅显示
+                        300个字符。应确保准备好的答案包含所需数量的字符，且适当构建，简短，简单且易于理解。让我们忘
+                        记长句子或大量文章。
+
+                        <br><br>
+                        第二个重要方面是网站在搜索引擎中的当前位置。如果质量不佳或位置偏远， Google不太可能将您的页
+                        面放置在精选片段中。精选摘录不仅地位很高， 而且是正面形象， 因为Google只会在其中放置可信赖且
+                        有价值的网站。
+                        <br><br>
+                        我想成为居格尔的第一人。可以做到吗?IT行业的每个人都多次听到过这个问题；反过来，每个
+                        有意识的网站所
+
+                        有者都在努力使自己的网站热心访问，并且访问量在搜索结果中不断增长。这是一个长
+                        期过程，必须得到正确和
+
+                        合法的支持，这一事实不应令任何人感到惊讶-并且应使客户意识到这一点。定
+                        位是三种方式之一-另一种是运行
+
+                        付费的AdWords广告系列。第三， 它的特色片段。
+                        <br><br>
+                        这是什么这些是“带答案的推荐代码段”， 出现在您键入搜索词组并单击Enter时出现在Google搜索引
+                        擎的顶部。精选摘要的特征在于其原始格式，使它们对用户而言更加可见。框架包含来自网站的文本片
+                        段，可选的图形和以页面链接形式的来源。通常精选的摘要出现在“0”处，高于所有其他搜索引擎结果
+                        。但是， 例外情况是当用户在Adwords服务中购买了给定的短语时， 建议的片段会稍低一些。显然， 这
+                        是每个人都希望实现的最理想的情况。
+                        <br><br>
+                        Google不断改进其浏览器， 使其对用户更加友好和有用。口语中的“问您的Google叔叔”或“Google
+                        叔叔告诉您”并非毫无意义-毕竟，我们每天都在使用她/他的帮助；-)-不仅要专业地工作。如何将页面
+                        添加到精选代码片段是一个严密保护的秘密， 只有部分Google开发人员才能知道。简而言之：没有单一
+                        的配方如何实现所需的位置“0”。但是，根据经验和观察，我们可以在网站上指导我们的活动，以便
+                        Google可以更轻松地看到我们的网站并使其脱颖而出。
+
+                        <br><br>
+                        对于我们的网站而言，最重要的是根据其上的材料进行深思熟虑。这就是为什么内容优化和编辑如此重
+                        要的原因。它应该包含用户的答案-这里的答案应该专门制定， 因为Google脚本在精选代码段中仅显示
+                        300个字符。应确保准备好的答案包含所需数量的字符，且适当构建，简短，简单且易于理解。让我们忘
+                        记长句子或大量文章。
+
+                        <br><br>
+                        第二个重要方面是网站在搜索引擎中的当前位置。如果质量不佳或位置偏远， Google不太可能将您的页
+                        面放置在精选片段中。精选摘录不仅地位很高， 而且是正面形象， 因为Google只会在其中放置可信赖且
+                        有价值的网站。
+                        <br><br>
+                    </div>
+                </div>
+                <div class="sidebar-wrapper sidebar">
+                    <h3 class="sidebar-more">相关资讯</h3>
+                    <div class="main_post l2"><a href="">
+                            <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                            </div>
+                            <div class="post_overlay"></div>
+                            <div class="post_content">
+                                <h2 class="post_title">什么是响应式网站？</h2>
+                                <p class="time_views">2019-10-18</p>
+
+                            </div>
+                            <div class="underline"></div>
+                        </a></div>
+                    <div class="main_post l2"><a href="">
+                            <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                            </div>
+                            <div class="post_overlay"></div>
+                            <div class="post_content">
+                                <h2 class="post_title">什么是响应式网站？</h2>
+                                <p class="time_views">2019-10-18</p>
+
+                            </div>
+                            <div class="underline"></div>
+                        </a></div>
+                    <div class="main_post l2"><a href="">
+                            <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                            </div>
+                            <div class="post_overlay"></div>
+                            <div class="post_content">
+                                <h2 class="post_title">什么是响应式网站？</h2>
+                                <p class="time_views">2019-10-18</p>
+
+                            </div>
+                            <div class="underline"></div>
+                        </a></div>
+                    <div class="main_post l2"><a href="">
+                            <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                            </div>
+                            <div class="post_overlay"></div>
+                            <div class="post_content">
+                                <h2 class="post_title">什么是响应式网站？</h2>
+                                <p class="time_views">2019-10-18</p>
+
+                            </div>
+                            <div class="underline"></div>
+                        </a></div>
+                </div>
+                <div class="socialmedia aniview" av-animation="fadeInUp">
+                    <a href="./news-choose.html" class="behance sm">
+                        公司新闻
+                    </a>
+                    <a href="./news-choose.html" class="youtube sm">
+                        行业新闻
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="news aniview" av-animation="fadeInUp">
+            <div class="news-container clearfix">
+                <p class="back">返回</p>
+                <div class="main_post l2"><a href="">
+                        <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                        </div>
+                        <div class="post_overlay"></div>
+                        <div class="post_content">
+
+                            <p class="time_views">2019-10-18</p>
+                            <h2 class="post_title">什么是响应式网站？</h2>
+                        </div>
+                        <div class="underline"></div>
+                    </a></div>
+                <div class="main_post l2"><a href="">
+                        <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                        </div>
+                        <div class="post_overlay"></div>
+                        <div class="post_content">
+
+                            <p class="time_views">2019-10-18</p>
+                            <h2 class="post_title">什么是响应式网站？</h2>
+                        </div>
+                        <div class="underline"></div>
+                    </a></div>
+                <div class="main_post l2"><a href="">
+                        <div class="post_bg" style="background:url(./images/news/1.png) 0% 0% /100%;">
+                        </div>
+                        <div class="post_overlay"></div>
+                        <div class="post_content">
+                            <p class="time_views">2019-10-18</p>
+                            <h2 class="post_title">什么是响应式网站？</h2>
+                        </div>
+                        <div class="underline"></div>
+                    </a></div>
+            </div>
+            <footer class="active">
+                <div class="container">
+                    <p class="copyright">
+                        Copyright © 宁波穿石网络科技有限公司 All rights reserved&nbsp;&nbsp;&nbsp;<a
+                            href="http://www.beian.miit.gov.cn">技术支持：穿石科技</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/jquery.aniview.min.js"></script>
+<script src="js/base.js"></script>
